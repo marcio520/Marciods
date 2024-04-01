@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1: #c5ebd5;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+
+    --fone-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destque:'Bebas Neue', cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding:6px;
+}
+body{
+    background-color: rgba(76, 149, 233, 0.623);
+    font-family: var(--fone-padrao);
+}
+
+
+
+header > h1{
+            background-color: aqua;
+            padding: 3px;
+            box-shadow: 8px 7px 7px 1px black;
+            text-align: center;
+
+}
+
+nav a {
+    color: royalblue;
+    padding: 10px;
+     box-shadow: 5px 3px 7px 1px black;
+     text-align: center;
+     text-decoration: none;
+     transition-duration: .5s;
+     
+
+}
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+article> h2{
+            background-color: rgba(0, 255, 255, 0.459);
+            padding: 4px;
+            box-shadow: 5px 3px 7px 1px black;
+            text-align: center;
+}
+
+article >p {
+       font-style: italic;
+       font-weight: bold;
+}
+
+picture > img{
+    width: 300px;
+    text-align: center;
+}
+
+main h1{
+    color: var(--cor2);
+    font-family: var(--fonte-destque);
+}
+
+main p{
+    margin: 10px 10px;
+    text-align: justify ;
+}
+
+footer {
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
